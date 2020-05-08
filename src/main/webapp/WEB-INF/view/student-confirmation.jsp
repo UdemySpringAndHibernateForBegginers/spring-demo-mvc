@@ -14,6 +14,8 @@
 <p>Last name: ${student.lastName}</p>
 <p>First country: ${student.firstCountry}</p>
 <p>Second country: ${student.secondCountry}</p>
+<p>Second country: ${student.favoriteLanguage}</p>
+<p>Second country: ${student.secondaryLanguage}</p>
 
 </body>
 </html>
