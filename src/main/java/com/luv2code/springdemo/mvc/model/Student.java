@@ -13,6 +13,7 @@ public class Student {
     private String secondCountry;
     private String favoriteLanguage;
     private String secondaryLanguage;
+    private String[] operatingSystems;
     private LinkedHashMap<String, String> countryOptions;
     private LinkedHashMap<String, String> secondaryLanguageOptions;
 

@@ -31,6 +31,11 @@
     Secondary language:
     <form:radiobuttons path="secondaryLanguage" items="${student.secondaryLanguageOptions}"  />
     <br><br>
+    Operating systems:
+    Linux <form:checkbox path="operatingSystems" value="Linux" />
+    Mac OS <form:checkbox path="operatingSystems" value="Mac OS" />
+    MS Win <form:checkbox path="operatingSystems" value="MS Win" />
+    <br><br>
     <input type="submit" value="Submit" />
 </form:form>
 
