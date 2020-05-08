@@ -15,8 +15,8 @@
 <p>Last name: ${student.lastName}</p>
 <p>First country: ${student.firstCountry}</p>
 <p>Second country: ${student.secondCountry}</p>
-<p>Second country: ${student.favoriteLanguage}</p>
-<p>Second country: ${student.secondaryLanguage}</p>
+<p>Favorite language: ${student.favoriteLanguage}</p>
+<p>Secondary language: ${student.secondaryLanguage}</p>
 <p>Operating systems:
     <ul>
         <c:forEach var="temp" items="${student.operatingSystems}">
