@@ -4,5 +4,7 @@
 <a href="showForm">Link to form</a>
 <br><br>
 <a href="student/showForm">Link to student registration form</a>
+<br><br>
+<a href="customer/showForm">Link to customer registration form</a>
 </body>
 </html>
