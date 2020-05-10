@@ -13,6 +13,7 @@
 <p>The customer is confirmed:</p>
 <p>First name: ${customer.firstName}</p>
 <p>Last name: ${customer.lastName}</p>
+<p>Free passes: ${customer.freePasses}</p>
 
 </body>
 </html>
