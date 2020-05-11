@@ -16,6 +16,7 @@
 <p>Free passes: ${customer.freePasses}</p>
 <p>Free passes: ${customer.postalCode}</p>
 <p>Free passes: ${customer.courseCode}</p>
+<p>Free passes: ${customer.secondaryCourseCode}</p>
 
 </body>
 </html>

@@ -1,6 +1,7 @@
 package com.luv2code.springdemo.mvc.model;
 
 import com.luv2code.springdemo.mvc.annotations.CourseCode;
+import com.luv2code.springdemo.mvc.annotations.MultiCourseCode;
 import lombok.Data;
 
 import javax.validation.constraints.*;
@@ -24,4 +25,7 @@ public class Customer {
 
     @CourseCode(value = "TOPS", message = "must start with TOPS")
     private String courseCode;
+
+    @MultiCourseCode
+    private String secondaryCourseCode;
 }
