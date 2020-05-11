@@ -41,7 +41,11 @@ public class CustomerController {
                               BindingResult theBindingResult) {
 
         //log the input data
+        System.out.println("=============");
         System.out.println("theCustomer: " + theCustomer.toString());
+        System.out.println("=============");
+        System.out.println("Binding result: " + theBindingResult.toString());
+        System.out.println("=============");
 
         if (theBindingResult.hasErrors()) {
             return "customer-form";
